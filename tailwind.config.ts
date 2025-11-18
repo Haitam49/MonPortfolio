@@ -60,11 +60,14 @@ export default {
       },
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',
+        'gradient-secondary': 'var(--gradient-secondary)',
         'gradient-subtle': 'var(--gradient-subtle)',
+        'gradient-warm': 'var(--gradient-warm)',
       },
       boxShadow: {
         'soft': 'var(--shadow-soft)',
         'medium': 'var(--shadow-medium)',
+        'glow': 'var(--shadow-glow)',
       },
       transitionTimingFunction: {
         'smooth': 'var(--transition-smooth)',

@@ -25,6 +25,7 @@ const Navigation = () => {
   const navItems = [
     { id: "profile", label: "Profil" },
     { id: "studies", label: "Études" },
+    { id: "experiences", label: "Expériences" },
     { id: "certifications", label: "Certifications" },
     { id: "projects", label: "Projets" },
     { id: "skills", label: "Compétences" },
