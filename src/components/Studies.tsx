@@ -24,10 +24,10 @@ const Studies = () => {
   ];
 
   return (
-    <section id="studies" className="py-20 bg-gradient-subtle">
+    <section id="studies" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-4 text-foreground">
             Mon Parcours
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
