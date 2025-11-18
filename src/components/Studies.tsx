@@ -4,23 +4,18 @@ import { GraduationCap, Calendar } from "lucide-react";
 const Studies = () => {
   const education = [
     {
-      degree: "Master en Informatique",
-      school: "Université de Technologie",
-      period: "2023 - 2025",
-      description: "Spécialisation en développement web et intelligence artificielle",
+      degree: "Etudiant en 5ème année informatique et réseaux ",
+      school: "Ecole Marocaine Des Sciences De L'ingénieur",
+      period: "2021 - 2026",
+      description: "Option : Méthodes informatiques appliquées à la gestion des entreprises",
     },
     {
-      degree: "Licence en Informatique",
-      school: "Université des Sciences",
-      period: "2020 - 2023",
-      description: "Formation générale en informatique et programmation",
-    },
-    {
-      degree: "Baccalauréat Scientifique",
-      school: "Lycée Technique",
-      period: "2019 - 2020",
-      description: "Option mathématiques et sciences de l'ingénieur",
-    },
+      degree: "Baccalauréat en sciences physiques ",
+      school: "Groupe scolaire Berrada",
+      period: "2021",
+      description: "Option Physiques et chimie",
+    }
+
   ];
 
   return (

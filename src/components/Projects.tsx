@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink, ArrowRight } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -87,6 +87,18 @@ const Projects = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+        
+        <div className="text-center mt-12">
+          <Button
+            variant="outline"
+            size="lg"
+            onClick={() => window.open("https://example.com/projects", '_blank')}
+            className="group"
+          >
+            Voir plus
+            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+          </Button>
         </div>
       </div>
     </section>

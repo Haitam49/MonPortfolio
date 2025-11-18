@@ -8,12 +8,16 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-6">
           {/* Social Links */}
           <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" className="hover:text-primary">
-              <Github className="w-5 h-5" />
-            </Button>
-            <Button variant="ghost" size="icon" className="hover:text-primary">
-              <Linkedin className="w-5 h-5" />
-            </Button>
+              <a href="https://github.com/Haitam49" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" className="hover:text-primary">
+                      <Github className="w-5 h-5" />
+                  </Button>
+              </a>
+              <a href="https://www.linkedin.com/in/haitamboulhna" target="_blank" rel="noopener noreferrer">
+                  <Button variant="ghost" size="icon" className="hover:text-primary">
+                      <Linkedin className="w-5 h-5" />
+                  </Button>
+              </a>
             <Button variant="ghost" size="icon" className="hover:text-primary">
               <Mail className="w-5 h-5" />
             </Button>
@@ -22,7 +26,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center text-muted-foreground">
             <p className="flex items-center gap-2 justify-center">
-              © 2024 John Doe • Fait avec <Heart className="w-4 h-4 text-primary fill-primary" /> et React
+              © 2025 Haitam Boulhna • كل الشكر والحمد لله
             </p>
           </div>
         </div>

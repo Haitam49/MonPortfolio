@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
+import profileImg from "@/assets/profile.jpeg";
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -19,15 +20,18 @@ const Hero = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-                Hi,
-              </h2>
+
               <h1 className="text-5xl md:text-7xl font-bold">
-                I'm <span className="text-primary">John</span>
+                <span className="text-primary">BOULHNA Haitam</span>
               </h1>
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
                 Étudiant Informatique
               </h2>
+                <p className="text-xl md:text-2xl text-muted-foreground mt-2">
+                    Passionné par la data science, l’IA et le machine learning,
+                    je m’intéresse à transformer les données en insights concrets
+                    et innovants aidant à la prise de décision.
+                </p>
             </div>
 
             <Button
@@ -41,14 +45,18 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex items-center gap-4 pt-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/haitamboulhna"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://github.com/Haitam49"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
                 aria-label="GitHub"
               >
@@ -56,6 +64,8 @@ const Hero = () => {
               </a>
               <a
                 href="#"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -73,9 +83,11 @@ const Hero = () => {
               {/* Profile Image Container */}
               <div className="absolute inset-0 flex items-end justify-center">
                 <div className="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden bg-muted">
-                  <div className="w-full h-full flex items-center justify-center text-6xl font-bold text-primary">
-                    JD
-                  </div>
+                    <img
+                        src={profileImg}
+                        alt="Profile"
+                        className="w-full h-full object-cover"
+                    />
                 </div>
               </div>
             </div>
