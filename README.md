@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# Portfolio de BOULHNA Haitam
 
-## Project info
+Bienvenue sur mon portfolio personnel ! Ce site présente mon profil, mes compétences en Data Science, Intelligence Artificielle et Machine Learning, ainsi que mes projets réalisés.
 
-**URL**: https://lovable.dev/projects/013bda32-a8b0-4f0a-8f88-142de5c3ee67
+---
 
-## How can I edit this code?
+## 🧑‍💻 À propos de moi
 
-There are several ways of editing your application.
+Je suis **Haitam BOULHNA**, étudiant en informatique passionné par la **Data Science**, l’**IA**, le **Machine Learning** et le **Deep Learning**.  
+Mon objectif est de transformer les données en **insights concrets et innovants** pour aider à la **prise de décision**.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/013bda32-a8b0-4f0a-8f88-142de5c3ee67) and start prompting.
+## ⚡ Technologies Utilisées
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend :** React, Next.js, Tailwind CSS  
+- **Visualisation de données :** Chart.js, Recharts (si utilisé)  
+- **Gestion du code :** Git, GitHub  
+- **Autres :** Lucide React pour les icônes, Vite (si utilisé)  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Structure du projet
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+├─ /assets # Images et icônes du site
+├─ /components # Composants réutilisables (boutons, header, footer)
+├─ /pages # Pages du site (Home, Contact, Portfolio)
+├─ /styles # Fichiers CSS / Tailwind
+└─ README.md # Ce fichier
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Fonctionnalités
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Présentation personnelle (nom, titre, bio)  
+- Section **Compétences techniques** avec icônes  
+- Section **Projets** avec description et liens  
+- **Boutons sociaux** : LinkedIn, GitHub, Email  
+- Formulaire de contact simple  
+- Navigation fluide avec **scroll smooth**  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 📥 Installation et utilisation
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Cloner le dépôt :  
+    git clone https://github.com/Haitam49/my-digital-space.git
 
-**Use GitHub Codespaces**
+2. Installer les dépendances :
+    npm install
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+3. Lancer le serveur de développement :
+    npm run dev
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/013bda32-a8b0-4f0a-8f88-142de5c3ee67) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Merci de visiter mon portfolio ! 
