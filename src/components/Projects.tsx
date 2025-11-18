@@ -36,10 +36,10 @@ const Projects = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
-            Mes Projets
+            Projets Académiques
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Découvrez quelques-uns de mes projets les plus récents
+            Découvrez mes projets réalisés durant ma formation
           </p>
         </div>
 
