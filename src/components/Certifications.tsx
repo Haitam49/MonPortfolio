@@ -5,13 +5,13 @@ import { Award, ExternalLink } from "lucide-react";
 const Certifications = () => {
   const certifications = [
     {
-      name: "AWS Certified Developer",
+      name: "Introduction à Java et à la programmation orientée objet",
       issuer: "Amazon Web Services",
       date: "2024",
       badge: "AWS",
     },
     {
-      name: "React Professional Certificate",
+      name: "LALALAL",
       issuer: "Meta",
       date: "2023",
       badge: "React",

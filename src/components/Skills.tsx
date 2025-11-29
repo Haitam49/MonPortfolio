@@ -172,7 +172,7 @@ const Skills = () => {
                     <img
                       src={lib.image}
                       alt={lib.name}
-                      className="max-h-16 max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                      className="max-h-16 max-w-full object-contain transition-all duration-300"
                     />
                   </div>
                 ));
@@ -193,32 +193,32 @@ const Skills = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: "AWS Certified Developer",
-                description: "Certification professionnelle en développement cloud sur la plateforme Amazon Web Services",
-                technologies: ["AWS", "Cloud", "DevOps"],
-                image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
-                url: "https://aws.amazon.com/certification/",
+                title: "Introduction à Java et à la programmation orientée objet",
+                description: "Une certification qui introduit les bases du langage Java et les principes fondamentaux de la programmation orientée objet pour développer des applications structurées et modulaires.",
+                technologies: ["JAVA", "Software Testing", "Object Oriented Programming (OOP)"],
+                image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Z6H8A2KJKQ1M/CERTIFICATE_LANDING_PAGE~Z6H8A2KJKQ1M.jpeg",
+                url: "https://www.coursera.org/account/accomplishments/verify/Z6H8A2KJKQ1M?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
               },
               {
-                title: "React Professional Certificate",
-                description: "Certification Meta en développement React et applications web modernes",
-                technologies: ["React", "JavaScript", "Frontend"],
-                image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=600&h=400&fit=crop",
-                url: "https://www.meta.com/",
+                title: "Programming for Everybody (Getting Started with Python)",
+                description: "Une certification qui enseigne les bases essentielles de Python afin de permettre à toute personne débutante de comprendre la programmation et d’écrire ses premiers scripts.",
+                technologies: ["Python Programming", "Computational Thinking", "Development Environment"],
+                image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~UD7PR8BMGJXG/CERTIFICATE_LANDING_PAGE~UD7PR8BMGJXG.jpeg",
+                url: "https://www.coursera.org/account/accomplishments/verify/UD7PR8BMGJXG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
               },
               {
-                title: "Full Stack Web Development",
-                description: "Formation complète en développement web full stack avec projets pratiques",
-                technologies: ["Full Stack", "Web Development", "MERN"],
-                image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
-                url: "https://www.coursera.org/",
+                title: "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+                description: "Une certification qui introduit les concepts des conteneurs et enseigne l’utilisation de Docker, Kubernetes et OpenShift pour déployer et gérer des applications modernes.",
+                technologies: ["Command-Line Interface", "Containerization", "DevOps"],
+                image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~E38TASCG6BEO/CERTIFICATE_LANDING_PAGE~E38TASCG6BEO.jpeg",
+                url: "https://www.coursera.org/account/accomplishments/verify/E38TASCG6BEO?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
               },
               {
-                title: "JavaScript Algorithms",
-                description: "Certification en algorithmes et structures de données en JavaScript",
-                technologies: ["JavaScript", "Algorithms", "Data Structures"],
-                image: "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=600&h=400&fit=crop",
-                url: "https://www.freecodecamp.org/",
+                title: "Introduction à la programmation orientée objet (en C++)",
+                description: "Une certification qui présente les bases du C++ et les principes essentiels de la programmation orientée objet pour concevoir des applications structurées et réutilisables.",
+                technologies: ["C++ (Programming Language)", "Object Oriented Programming (OOP)", "Computer Programming"],
+                image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~R84E6BQ5EHHB/CERTIFICATE_LANDING_PAGE~R84E6BQ5EHHB.jpeg",
+                url: "https://www.coursera.org/account/accomplishments/verify/R84E6BQ5EHHB?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
               },
             ].map((cert, index) => (
               <Card
@@ -269,12 +269,62 @@ const Skills = () => {
             <Button
               variant="outline"
               size="lg"
-              onClick={() => window.open("https://example.com/certifications", '_blank')}
+              onClick={() => window.open("https://docs.google.com/document/d/1MzOEaMKfeccx8-J26cq3LrwVJe7L_uulKePCC0eYWi8/edit?tab=t.0", '_blank')}
               className="group"
             >
               Voir plus
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
+          </div>
+        </div>
+
+        {/* Expériences Professionnelles Section */}
+        <div className="max-w-6xl mx-auto mt-16">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl font-bold mb-4 text-foreground">Expériences Professionnelles</h3>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Mon parcours professionnel et mes réalisations
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {[
+              {
+                title: "Stage en data science",
+                date: "Juin 2025 - Août 2025",
+                description: "Analyse du métier à travers des tableaux de bord interactifs réalisés avec Power BI, accompagnée d’une exploration et préparation des données à l’aide de Python (Pandas, NumPy, Scikit-learn). Conception puis déploiement d’un modèle de Machine Learning visant à prédire le délai de séjour des marchandises au port, avec présentation claire des résultats pour soutenir la prise de décision et optimiser les processus logistiques.",
+                image: "https://bghit-nekhdem.com/wp-content/uploads/2021/07/portnet.png",
+              },
+              {
+                title: "Stage en développement web",
+                date: "Juin 2024 - Août 2024",
+                description: "Conception et développement d’une application web avec Django (Python), intégrant des graphiques dynamiques et interactifs pour la visualisation des données. Ce projet a permis d’améliorer la prise de décision grâce à une interface intuitive, visuelle et orientée utilisateur.",
+                image: "https://bghit-nekhdem.com/wp-content/uploads/2021/07/portnet.png",
+              },
+            ].map((experience, index) => (
+              <Card
+                key={index}
+                className="overflow-hidden border-border/50 hover:border-primary/50 transition-all duration-300 hover:shadow-medium group"
+              >
+                <div className="relative overflow-hidden h-48">
+                  <img
+                    src={experience.image}
+                    alt={experience.title}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                </div>
+                
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-2 text-foreground group-hover:text-primary transition-colors">
+                    {experience.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4 font-medium">
+                    {experience.date}
+                  </p>
+                  <p className="text-foreground/70">{experience.description}</p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </div>

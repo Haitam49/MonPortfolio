@@ -2,32 +2,37 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink, ArrowRight } from "lucide-react";
+import vmImage from "@/assets/VisionMind.png";
+import CharityImage from "@/assets/CharityApp.png";
+import DlImage from "@/assets/DL.jpg";
+import PowerbiImage from "@/assets/Pbi.png";
+
 
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Plateforme e-commerce complète avec gestion de panier, paiement et administration",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
+      title: "Application de Questions-Réponses sur images – Vision Language Model (VLM)",
+      description: "Réalisation d’un système capable d’analyser une image et de répondre à des questions textuelles grâce à un modèle Vision-Language. Le projet inclut le prétraitement des images, l’utilisation d’un modèle multimodal et la mise en place d’une interface permettant à l’utilisateur de charger une image et d’obtenir une réponse.",
+      technologies: ["VLM","Python","Anaconda",""],
+      image: vmImage,
     },
     {
-      title: "Task Management App",
-      description: "Application de gestion de tâches collaborative avec authentification et temps réel",
-      technologies: ["TypeScript", "Firebase", "Tailwind CSS"],
-      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop",
+      title: "Modèle de classification d’images de fruits – CNN avec TensorFlow/Keras intégré dans Flutter",
+      description: "Création et entraînement d’un réseau de neurones convolutionnel pour classer des images de fruits, suivi de la conversion du modèle en TensorFlow Lite et son intégration dans une application mobile Flutter pour permettre la classification en temps réel sur mobile.",
+      technologies: ["CNN", "Keras", "TensorFlow","Flutter"],
+      image: DlImage,
     },
     {
-      title: "Weather Dashboard",
-      description: "Dashboard météo interactif avec prévisions et visualisation de données",
-      technologies: ["React", "API REST", "Chart.js"],
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&h=400&fit=crop",
+      title: "CharityApp - Système de gestion de dons",
+      description: "Conception d’une application web complète avec architecture en trois couches, sécurité Spring Security, gestion des organisations, actions et dons, et communication avec une base de données relationnelle.",
+      technologies: ["Spring Boot","Spring Security", "H2 Database", "HTML","CSS"],
+      image: CharityImage,
     },
     {
-      title: "Portfolio Generator",
-      description: "Générateur de portfolio automatique avec templates personnalisables",
-      technologies: ["Next.js", "CMS", "SEO"],
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+      title: "Tableaux de bord Power BI et Modélisation Machine Learning",
+      description: "Développement d’un projet d’analyse de données visant à prévoir le délai de séjour des marchandises dans les ports. Le projet comprend la collecte et le nettoyage des données logistiques, l’exploration des tendances à l’aide de Power BI, et la création d’un modèle de Machine Learning pour estimer avec précision les délais. Cette solution permet d’optimiser la planification portuaire et de fournir des insights décisionnels pour la gestion des flux de marchandises.",
+      technologies: ["Power BI", "Machine Learning", "Random Forest", "Pandas", "Numpy", "Scikit-Learn"],
+      image: PowerbiImage,
     },
   ];
 

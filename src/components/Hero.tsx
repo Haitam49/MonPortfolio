@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, FileText } from "lucide-react";
 import profileImg from "@/assets/profile.jpeg";
 
 const Hero = () => {
@@ -24,23 +24,39 @@ const Hero = () => {
               <h1 className="text-5xl md:text-7xl font-bold">
                 <span className="text-primary">BOULHNA Haitam</span>
               </h1>
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-                Étudiant Informatique
-              </h2>
+              <div className="space-y-2">
+                <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+                  Étudiant en Informatique
+                </h2>
+                <p className="text-lg md:text-xl text-muted-foreground font-medium">
+                  Développement, Data, Machine Learning & AI
+                </p>
+              </div>
                 <p className="text-xl md:text-2xl text-muted-foreground mt-2">
-                    Passionné par la data science, l’IA et le machine learning,
-                    je m’intéresse à transformer les données en insights concrets
+                    Passionné par la data science, l'IA et le machine learning,
+                    je m'intéresse à transformer les données en insights concrets
                     et innovants aidant à la prise de décision.
                 </p>
             </div>
 
-            <Button
-              size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg px-8"
-              onClick={() => scrollToSection("contact")}
-            >
-              Contact
-            </Button>
+            <div className="flex gap-4">
+              <Button
+                size="lg"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg px-8"
+                onClick={() => scrollToSection("contact")}
+              >
+                Contact
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="rounded-lg px-8"
+                onClick={() => window.open("https://drive.google.com/file/d/1iIPqwCqmQNfMGqzdIsWebxfWmz_lRWLy/view?usp=sharing", "_blank", "noopener,noreferrer")}
+              >
+                <FileText className="w-5 h-5 mr-2" />
+                Consulter mon CV
+              </Button>
+            </div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 pt-4">
