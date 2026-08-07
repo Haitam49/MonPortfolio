@@ -211,7 +211,7 @@ const Skills = () => {
                 title: "Associate Data Scientist",
                 description: "La certification Data Scientist Associate de DataCamp valide des compétences essentielles en analyse de données, statistiques et Machine Learning. Elle atteste de la capacité à préparer et explorer les données, construire et évaluer des modèles prédictifs, ainsi qu’à interpréter les résultats afin de répondre à des problématiques concrètes de Data Science.",
                 technologies: ["Python", "SQL", "Pandas", "NumPy", "Matplotlib", "Scikit-learn", "Machine Learning", "Statistiques"],
-                image: "/src/assets/DSassocia.png",
+                image: "https://raw.githubusercontent.com/Haitam49/MonPortfolio/1029cea79f6407e18d76454e822ac7d332b95824/src/assets/DSassocia.png",
                 url: "https://www.datacamp.com/certificate/DSA0012394126752",
               },
               {
