@@ -26,7 +26,7 @@ const Hero = () => {
               </h1>
               <div className="space-y-2">
                 <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-                  Étudiant en Informatique
+                  Ingénieur d’Etat en Informatique 
                 </h2>
                 <p className="text-lg md:text-xl text-muted-foreground font-medium">
                   Développement, Data, Machine Learning & AI
@@ -51,7 +51,7 @@ const Hero = () => {
                 size="lg"
                 variant="outline"
                 className="rounded-lg px-8"
-                onClick={() => window.open("https://drive.google.com/file/d/1iIPqwCqmQNfMGqzdIsWebxfWmz_lRWLy/view?usp=sharing", "_blank", "noopener,noreferrer")}
+                onClick={() => window.open("https://drive.google.com/file/d/1Zd9l5g2lSr2XYlMIdjF7DSa8RA9CnptO/view?usp=drive_link", "_blank", "noopener,noreferrer")}
               >
                 <FileText className="w-5 h-5 mr-2" />
                 Consulter mon CV
