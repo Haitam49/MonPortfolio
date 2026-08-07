@@ -53,7 +53,12 @@ const Skills = () => {
       title: "Bases de données & Big Data",
       icon: Database,
       skills: [
+        "Architecture Medaillon",
         "SQL / NoSQL",
+        "Apache Spark",
+        "Apache Hadoop",
+        "Hive",
+        "Apache Iceberg",
         "Gestion et extraction de données massives",
 
       ],
@@ -63,7 +68,10 @@ const Skills = () => {
       title: "Outils & Environnements",
       icon: Wrench,
       skills: [
-        "Jupyter Notebook, VS Code,IntelliJ",
+        "Docker",
+        "Jupyter Notebook",
+        "Vs Code",
+        "IntelliJ IDEA",
         "Anaconda",
         "Spyder",
 
@@ -74,7 +82,7 @@ const Skills = () => {
        title: "Visualisation et reporting",
          icon: PieChart, // Remplacez par l'icône de votre choix
          skills: [
-          "Tableau, Power BI",
+          "Power BI",
           "Streamlit pour dashboards interactifs",
 
          ],
@@ -193,18 +201,18 @@ const Skills = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: "Introduction à Java et à la programmation orientée objet",
-                description: "Une certification qui introduit les bases du langage Java et les principes fondamentaux de la programmation orientée objet pour développer des applications structurées et modulaires.",
-                technologies: ["JAVA", "Software Testing", "Object Oriented Programming (OOP)"],
-                image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~Z6H8A2KJKQ1M/CERTIFICATE_LANDING_PAGE~Z6H8A2KJKQ1M.jpeg",
-                url: "https://www.coursera.org/account/accomplishments/verify/Z6H8A2KJKQ1M?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+                title: "Associate Data Engineer",
+                description: "La certification Data Engineer Associate de DataCamp valide des compétences pratiques en ingénierie des données, notamment la manipulation et la transformation des données avec SQL et Python, la compréhension des pipelines de données, ainsi que les principes liés au stockage et à la gestion des données. Elle permet de démontrer une maîtrise des fondamentaux nécessaires pour évoluer vers un poste de Data Engineer.",
+                technologies: ["Python", "SQL", "PostgreSQL", "Git", "Data Pipelines", "ETL/ELT", "Data Warehousing"],
+                image: "/src/assets/DEassocia.png",
+                url: "https://www.datacamp.com/certificate/DEA0017583724817",
               },
               {
-                title: "Programming for Everybody (Getting Started with Python)",
-                description: "Une certification qui enseigne les bases essentielles de Python afin de permettre à toute personne débutante de comprendre la programmation et d’écrire ses premiers scripts.",
-                technologies: ["Python Programming", "Computational Thinking", "Development Environment"],
-                image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~UD7PR8BMGJXG/CERTIFICATE_LANDING_PAGE~UD7PR8BMGJXG.jpeg",
-                url: "https://www.coursera.org/account/accomplishments/verify/UD7PR8BMGJXG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
+                title: "Associate Data Scientist",
+                description: "La certification Data Scientist Associate de DataCamp valide des compétences essentielles en analyse de données, statistiques et Machine Learning. Elle atteste de la capacité à préparer et explorer les données, construire et évaluer des modèles prédictifs, ainsi qu’à interpréter les résultats afin de répondre à des problématiques concrètes de Data Science.",
+                technologies: ["Python", "SQL", "Pandas", "NumPy", "Matplotlib", "Scikit-learn", "Machine Learning", "Statistiques"],
+                image: "/src/assets/DSassocia.png",
+                url: "https://www.datacamp.com/certificate/DSA0012394126752",
               },
               {
                 title: "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
@@ -290,13 +298,19 @@ const Skills = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: "Stage en data science",
+                title: "Stage PFE en Data Engineering & Data Science",
+                date: "Février 2026 - Août 2026",
+                description: "Stage de fin d’études au sein de la Banque Centrale Populaire (BCP), orienté Data Engineering et Data Science, avec la mise en place d’une architecture Big Data pour l’ingestion, le traitement et la valorisation des données, ainsi que le développement d’un modèle de Machine Learning destiné à prédire l’appétence des clients aux produits d’épargne.",
+                image: "https://laquotidienne.ma/uploads/actualites/5e1336553012b.jpg",
+              },
+              {
+                title: "Stage en Data Science",
                 date: "Juin 2025 - Août 2025",
                 description: "Analyse du métier à travers des tableaux de bord interactifs réalisés avec Power BI, accompagnée d’une exploration et préparation des données à l’aide de Python (Pandas, NumPy, Scikit-learn). Conception puis déploiement d’un modèle de Machine Learning visant à prédire le délai de séjour des marchandises au port, avec présentation claire des résultats pour soutenir la prise de décision et optimiser les processus logistiques.",
                 image: "https://bghit-nekhdem.com/wp-content/uploads/2021/07/portnet.png",
               },
               {
-                title: "Stage en développement web",
+                title: "Stage en Développement Web & Data Analytics",
                 date: "Juin 2024 - Août 2024",
                 description: "Conception et développement d’une application web avec Django (Python), intégrant des graphiques dynamiques et interactifs pour la visualisation des données. Ce projet a permis d’améliorer la prise de décision grâce à une interface intuitive, visuelle et orientée utilisateur.",
                 image: "https://bghit-nekhdem.com/wp-content/uploads/2021/07/portnet.png",

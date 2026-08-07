@@ -74,3 +74,4 @@ Une fois configuré, testez le formulaire de contact. Vous devriez recevoir les 
 - Le plan gratuit d'EmailJS permet 100 emails par mois
 
 
+
