@@ -204,7 +204,7 @@ const Skills = () => {
                 title: "Associate Data Engineer",
                 description: "La certification Data Engineer Associate de DataCamp valide des compétences pratiques en ingénierie des données, notamment la manipulation et la transformation des données avec SQL et Python, la compréhension des pipelines de données, ainsi que les principes liés au stockage et à la gestion des données. Elle permet de démontrer une maîtrise des fondamentaux nécessaires pour évoluer vers un poste de Data Engineer.",
                 technologies: ["Python", "SQL", "PostgreSQL", "Git", "Data Pipelines", "ETL/ELT", "Data Warehousing"],
-                image: "/src/assets/DEassocia.png",
+                image: "https://raw.githubusercontent.com/Haitam49/MonPortfolio/1029cea79f6407e18d76454e822ac7d332b95824/src/assets/DEassocia.png",
                 url: "https://www.datacamp.com/certificate/DEA0017583724817",
               },
               {
